@@ -1,100 +1,110 @@
-# AI Governance in Africa — Portfolio
+# AI Governance Africa
 
-## Overview
-
-This repository contains a portfolio of independent research projects examining the **governance, social, and labor implications of artificial intelligence in African contexts**, with a current focus on Kenya. The work adopts an interdisciplinary lens, combining data analysis, qualitative reasoning, and policy-oriented interpretation to support **responsible, inclusive, and accountable AI deployment**.
-
-The projects are designed as **public-interest work samples**, suitable for policymakers, researchers, civil society organizations, and academic audiences interested in AI governance, digital inclusion, and the future of work.
+**A focused research project exploring AI-driven job displacement as a systemic risk in African economies.**
 
 ---
 
-## Research Themes
+## What this project is
 
-The portfolio explores questions at the intersection of:
+This is an independent research initiative investigating one specific question:
 
-- AI governance and public policy  
-- Labor markets and technological change  
-- Algorithmic bias and proxy discrimination  
-- Digital inclusion in Global South contexts  
-- Responsible AI deployment and oversight  
+> *If AI automation displaces large numbers of workers in African economies — particularly in sectors like BPO, manufacturing, and informal trade — what are the downstream systemic risks, and what governance responses could prevent catastrophic outcomes?*
 
-Rather than predicting technological outcomes, the work emphasizes **anticipatory governance**, transparency, and the protection of human dignity in AI-driven systems.
+This project sits at the intersection of **AI safety**, **labour economics**, and **African political economy**. It is not a general survey of "AI in Africa." It is a focused attempt to understand a specific risk pathway and what can be done about it.
 
 ---
 
-## Projects
+## Why this matters
 
-### 📁 Project 1: AI & Job Displacement Risk in Kenya  
-**Folder:** `project-1-job-displacement/`
+Most AI safety research focuses on technical alignment: ensuring AI systems do what their designers intend. That is critical work. But there is a parallel risk that receives far less attention:
 
-This project assesses **relative exposure to AI-driven job displacement** across Kenya’s major economic sectors using sector-level labor data and qualitative task-exposure analysis.
+**What happens to societies when AI disrupts labour markets faster than institutions can adapt?**
 
-**Key contributions:**
-- Identifies uneven AI displacement risk across agriculture, industry, and services  
-- Visualizes sector-level exposure in a governance-oriented format  
-- Proposes policy and governance interventions aligned with global AI governance frameworks  
+In Kenya, 15.9 million people aged 15–64 are employed (ILO, 2022). A significant share work in sectors highly exposed to automation — data entry, customer service, routine manufacturing, and informal trade. Youth unemployment is already high. If AI accelerates job displacement without adequate governance responses, the social and political consequences could be severe and irreversible.
 
-**Focus:**  
-AI & labor governance, workforce transitions, inclusive policy design
+This is not a distant hypothetical. It is happening now, and it demands serious analysis.
 
 ---
 
-### 📁 Project 2: AI Bias & Education Proxies in Kenya  
-**Folder:** `ai-bias-education-kenya/`
+## Focus area: Kenya (with broader Africa implications)
 
-This project examines how AI systems may **reproduce or amplify inequality** when education-related variables are used as proxies in automated decision-making systems.
-
-**Key contributions:**
-- Analyzes proxy bias risks in data-driven systems  
-- Highlights implications for fairness and access in African contexts  
-- Frames findings within ethical and regulatory considerations  
-
-**Focus:**  
-Algorithmic bias, fairness, governance of automated decision systems
+Kenya is the starting point because:
+- It has a large and growing BPO sector directly exposed to AI automation
+- It has reliable ILO and World Bank employment data available
+- It exemplifies dynamics common across Sub-Saharan Africa: young population, high informality, rapid tech adoption alongside weak social safety nets
+- What happens here has implications for Ethiopia, Nigeria, Ghana, Rwanda, and beyond
 
 ---
 
-## Methodological Approach
+## Project structure
 
-Across projects, the work combines:
+```
+ai-governance-africa/
+│
+├── core-question.md                        ← The central research question (start here)
+├── PLAN.md                                 ← Execution roadmap
+├── CLAUDE.md                               ← Research context and working memory
+├── requirements.txt                        ← Python dependencies
+│
+├── kenya_labour_analysis.ipynb             ← Main analysis notebook (74 cells, 8 parts)
+├── automation_risk_analysis_notebook.ipynb ← Automation vulnerability analysis
+│
+├── essay-1/                                ← Main analytical essay
+│   ├── draft.md                            ← Sections 1–3 complete (~1,200 words)
+│   └── outline.md                          ← Essay scaffold and section prompts
+│
+├── notes/                                  ← Raw thinking, reflections, open questions
+│   ├── data-observations.md
+│   ├── questions-im-exploring.md
+│   └── ai-safety-atlas-reflections.md
+│
+├── automation-vulnerability-kenya/         ← Sub-project: occupation exposure analysis
+├── ai-bias-education-kenya/                ← Sub-project: gender bias in AI training data
+├── ai-bias-kenyan-names/                   ← Sub-project: naming bias in AI systems
+│
+├── data_raw/                               ← Source data (not committed — see DATA_SOURCES.md)
+│   ├── DATA_SOURCES.md                     ← Download instructions for all datasets
+│   ├── ilo/                                ← ILO ILOSTAT files by category
+│   └── world_bank/                         ← World Bank WDI files by indicator
+│
+└── outputs/                                ← Generated charts and reports
+    ├── figures/
+    └── reports/
+```
 
-- Publicly available datasets (e.g., national statistics and international labor data)  
-- Qualitative governance frameworks from AI ethics and labor economics  
-- Lightweight, interpretable visualizations for non-technical audiences  
-- Explicit discussion of assumptions, limitations, and responsible use  
+## Reproducing the analysis
 
-This approach prioritizes **clarity, transparency, and policy relevance** over technical complexity.
+```bash
+git clone https://github.com/wafspaul/ai-governance-africa.git
+cd ai-governance-africa
+pip install -r requirements.txt
+# Download data files per data_raw/DATA_SOURCES.md
+jupyter notebook kenya_labour_analysis.ipynb
+```
 
 ---
 
-## Intended Audience
+## Current status
 
-- AI governance and policy researchers  
-- Government and regulatory stakeholders  
-- Civil society and advocacy organizations  
-- Academic programs and fellowship committees  
-- Technologists interested in responsible AI deployment  
+🟢 **Active research** — April 2026
 
----
+| Component | Status |
+|---|---|
+| ILO + World Bank data analysis | ✅ Complete — 74-cell guided notebook, 8 analytical sections |
+| Automation vulnerability sub-project | ✅ Complete |
+| AI bias in education (gender) | ✅ Complete |
+| AI bias in Kenyan names | ✅ Complete |
+| Essay — Introduction + Sections 1–3 | ✅ ~1,200 words written |
+| Essay — Section 4 + Conclusion | 🟡 In progress — target May 2026 |
+| References | ⬜ Week 5 |
+| Public release | ⬜ Target: 12 May 2026 |
 
-## Status & Future Work
-
-This portfolio is actively evolving. Planned future work includes:
-
-- Benchmarking AI systems beyond narrow performance metrics  
-- Interpretability and transparency in language models  
-- Agentic AI and accountability frameworks  
-- Comparative AI governance perspectives across African countries  
+Data sourced from ILO ILOSTAT (Kenya Continuous Household Survey 2022) and World Bank WDI. All analysis is original. Raw data files are not committed — see [`data_raw/DATA_SOURCES.md`](data_raw/DATA_SOURCES.md) for download instructions.
 
 ---
 
-## About the Author
+## About this project
 
-This work is produced by an independent researcher and practitioner focused on **AI governance, digital inclusion, and the future of work in Africa**, with experience spanning policy engagement, technical analysis, and capacity-building initiatives.
+This is independent research by Paul Wafula, exploring AI governance and safety from an African perspective. It is part of a broader effort to ensure that AI safety discourse includes the specific vulnerabilities and risks faced by developing economies in the Global South.
 
----
-
-## License & Use
-
-All materials in this repository are intended for **research, policy, and educational use**.  
-Reuse is encouraged with appropriate attribution.
+Questions, feedback, and collaboration welcome.

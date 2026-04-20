@@ -1,0 +1,22 @@
+## AI Governance Work Sample
+
+**Title:** Education as a Proxy Variable in AI-Driven Income Prediction  
+**Context:** Kenya labor and education data  
+**Focus Area:** Algorithmic fairness, proxy discrimination, governance risk
+
+### Research Question
+Does educational attainment function as a proxy for gender-based income inequality in data commonly used to train AI systems?
+
+### Key Insight
+The analysis shows persistent income disparities between men and women at similar education levels, indicating that education may encode structural inequality rather than neutral merit.
+
+### Governance Relevance
+AI systems trained on such data risk reproducing inequality unless governance mechanisms such as fairness audits, proxy analysis, and regulatory oversight are applied.
+
+### Methods
+Exploratory data analysis, group comparison, visualization, governance interpretation.
+
+### Outputs
+- Reproducible Jupyter notebook
+- Visual evidence of disparity
+- Governance-focused interpretation

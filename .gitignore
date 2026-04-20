@@ -1,0 +1,46 @@
+# ─── Jupyter ──────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ─── Raw data — download from sources documented in README ─
+data_raw/**/*.csv
+data_raw/**/*.zip
+data_raw/**/*.xlsx
+data_raw/**/*.xls
+
+# ─── Third-party training datasets ────────────────────────
+ai-bias-education-kenya/adult.data.txt
+
+# ─── Scratch / unnamed notebooks ──────────────────────────
+Untitled.ipynb
+ai-bias-kenyan-names/Untitled.ipynb
+**/Untitled.ipynb
+
+# ─── Python ───────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# ─── Environment ──────────────────────────────────────────
+.env
+.env.*
+*.env
+
+# ─── OS ───────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Editors ──────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
