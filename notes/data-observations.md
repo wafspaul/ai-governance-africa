@@ -101,3 +101,16 @@ Women hold roughly half the advanced education credentials that men do. But wome
 ## Data integrity notes
 
 *[Did you notice any gaps, inconsistencies, or things that seemed off in the data? Write them here. Being honest about data quality is a sign of serious analysis.]*
+
+---
+
+## Policy Engagement Log
+
+### Senate Submission — 5 May 2026
+**Bill:** The Artificial Intelligence Bill, 2026 (Senate Bills No. 4 of 2026)
+**Channel:** Individual petition to Parliament of Kenya
+**Clause targeted:** Section 33 (Workforce Impact Obligations)
+**Core argument:** Section 33 requires workforce impact assessments but assumes formal employment relationships. 86% of Kenya's workforce is informal. The 7.5 million workers most exposed to AI displacement (Intermediate band, 46–50% informality) have no employer to trigger the assessment, no registration to access reskilling, and no channel to report displacement. Three amendments proposed: (1) expand "workforce impact" definition to include informal and platform workers; (2) require Commissioner's guidelines under Section 33(2) to include informal sector indicators; (3) add a labour market specialist with informal economy expertise to the Advisory Committee under Section 17.
+**Also submitted to:** EdTech East Africa joint stakeholder submission (Area 4: Workforce Impact & Reskilling) — coordination body for Joint Memorandum to Clerk of Senate.
+**Status:** Submitted. Senate cutoff was 5 May 2026.
+**Relevance to essay:** The three amendments are the Section 4 governance recommendations in condensed form. This submission is proof of work and a policy engagement data point for fellowship applications.

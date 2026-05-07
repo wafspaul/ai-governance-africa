@@ -135,7 +135,7 @@ Load pattern: `skiprows=4`, Kenya row extraction, year columns as time series.
 | Week 2 | 14–20 Apr | Introduction + Section 1 | ✅ Done |
 | Week 3 | 21–27 Apr | Sections 2 & 3 | ✅ Done (ahead of schedule) |
 | Week 4 | 28 Apr–4 May | Section 4 + Conclusion | ⬜ Target: ~450 words |
-| Week 5 | 5–11 May | Polish + references | ⬜ |
+| Week 5 | 5–11 May | Polish + references + **Senate submission done 5 May** | 🟡 In progress |
 | Week 6 | 12–18 May | Go public — LinkedIn + decision | ⬜ Hard date: Tue 12 May |
 
 ---

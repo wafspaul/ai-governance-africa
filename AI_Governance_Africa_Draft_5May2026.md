@@ -93,4 +93,41 @@ International Labour Organization (2022). *Employment by sex, age and level of e
 
 International Labour Organization (2022). *Informal employment by economic activity (ISIC-Rev.2) — Kenya.* ILOSTAT database. Indicator: EMP_NIFL_SEX_EC2_NB_A. Geneva: ILO. https://ilostat.ilo.org/
 
-International Labour Organization (2022). *Mean nominal monthly earnings of employees by sex and education — Kenya.* ILOSTAT database. Indicators: EAR_EMTM_SEX_EDU_NB_A; EAR_EMTA_SEX_EDU_NB_A. Geneva: ILO. https:
+International Labour Organization (2022). *Mean nominal monthly earnings of employees by sex and education — Kenya.* ILOSTAT database. Indicators: EAR_EMTM_SEX_EDU_NB_A; EAR_EMTA_SEX_EDU_NB_A. Geneva: ILO. https://ilostat.ilo.org/
+
+International Labour Organization (2022). *SDG Indicator 8.3.1 — Proportion of informal employment in non-agriculture employment, by sex — Kenya.* ILOSTAT database. Geneva: ILO. https://ilostat.ilo.org/
+
+International Labour Organization (2022). *SDG Indicator 8.6.1 — Share of youth not in employment, education or training (NEET rate) — Kenya.* ILOSTAT database. Geneva: ILO. https://ilostat.ilo.org/
+
+World Bank (2024). *World Development Indicators — Kenya: youth unemployment, female labour force participation, secondary school enrolment.* Washington DC: World Bank. https://databank.worldbank.org/source/world-development-indicators
+
+---
+
+### Policy Documents
+
+Kenya Ministry of ICT and Digital Economy (2025). *Kenya National Artificial Intelligence Strategy 2025–2030.* Nairobi: Government of Kenya.
+
+African Union Commission (2024). *Continental Artificial Intelligence Strategy: Harnessing AI for Africa's Development and Prosperity.* Addis Ababa: African Union Commission. July 2024.
+
+International Labour Organization (2015). *Guidelines for a just transition towards environmentally sustainable economies and societies for all.* Geneva: ILO. https://www.ilo.org/wcmsp5/groups/public/---ed_emp/---emp_ent/documents/publication/wcms_432859.pdf
+
+Republic of Rwanda, Ministry of ICT and Innovation (2022). *National Digital Inclusion Strategy.* Kigali: Government of Rwanda.
+
+---
+
+### Research and Secondary Sources
+
+Frey, C.B. & Osborne, M.A. (2017). The future of employment: How susceptible are jobs to computerisation? *Technological Forecasting and Social Change,* 114, 254–280. https://doi.org/10.1016/j.techfore.2016.08.019
+*(Foundational task-exposure framework referenced in Section 2.)*
+
+Acemoglu, D. & Restrepo, P. (2022). Tasks, automation, and the rise in US wage inequality. *Econometrica,* 90(5), 1973–2016.
+*(Task-displacement methodology.)*
+
+GSMA Intelligence (2021). *The Novissi programme: Mobile-enabled social protection in Togo.* London: GSMA. https://www.gsma.com/mobilefordevelopment/
+*(Source for Togo Novissi reach figures cited in Section 4.)*
+
+AI Safety Atlas (2024). Systemic Risks. *AI Safety Atlas,* Chapter V1. https://ai-safety-atlas.com/chapters/v1/risks/systemic-risks/
+
+---
+
+*References complete as of 5 May 2026. ILO indicator codes for data reproducibility: EMP_TEMP_SEX_AGE_EDU_NB_A, EMP_NIFL_SEX_EC2_NB_A, EAR_EMTA_SEX_EDU_NB_A, EAR_EMTM_SEX_EDU_NB_A, EIP_NEET_SEX_RT_A, SDG_0831, SDG_0861, SDG_0111.*
